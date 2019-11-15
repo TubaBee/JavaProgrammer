@@ -6,7 +6,7 @@ public class Task {
 		Task word = new Task();
 		word.evenOddNumber(8);
 		word.maxMinNumber(89, 65);//argument
-		word.palindrome("Tuba");//argument
+		word.palindrome("madam");//argument
 
 	}
 	
