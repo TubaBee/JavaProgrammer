@@ -18,7 +18,7 @@ public class Task {
 
 	boolean prime(int num) {
 		boolean prime=true ;
-	for (int i = 2; i <num/2; i++) {
+	for (int i = 2; i <num; i++) {
 		if(num%i==0 || num<=1) {
 		prime=false;
 		}
@@ -53,7 +53,7 @@ public class Task {
 		String e = obj.createEmail("tuba", "onsal", "gmail");
 		System.out.println(e);
 
-		boolean p = obj.prime(97);
+		boolean p = obj.prime(113);
 		System.out.println(p);
 		
 	
